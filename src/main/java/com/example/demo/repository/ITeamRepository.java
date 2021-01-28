@@ -6,4 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ITeamRepository extends JpaRepository<Team,Long> {
+
+    Team findOneById(Long id);
 }
