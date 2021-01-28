@@ -24,7 +24,7 @@ public class Player extends BaseEntity {
 
     private String lastName;
 
-    private Number registrationNumber;
+    private int registrationNumber;
 
     @JsonFormat(pattern = "yyyy-MM-dd")
     private Date birthday;
